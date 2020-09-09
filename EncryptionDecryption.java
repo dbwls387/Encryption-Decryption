@@ -12,7 +12,7 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-public class Encryption {
+public class EncryptionDecryption {
 	private static IvParameterSpec iv;
 	
 	 public static void main(String[] args) throws NoSuchAlgorithmException,BadPaddingException
